@@ -1,11 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 35,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
-  "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
@@ -14,38 +12,31 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "flexVerticalAlignment": "start",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
+  "isRequired": false,
   "isVisible": true,
-  "key": "nvwu7iz877",
+  "key": "3ibeqmcthd",
+  "label": "Scan a QR/Barcode",
   "leftColumn": 0,
-  "minWidth": 120,
-  "mobileBottomRow": 8,
+  "mobileBottomRow": 52,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 4,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 19,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('https://www.torfabrik.de', {}, 'NEW_WINDOW');}}",
   "parentColumnSpace": 20.21875,
   "parentId": "0",
   "parentRowSpace": 10,
   "placement": "CENTER",
-  "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": false,
-  "responsiveBehavior": "hug",
-  "rightColumn": 16,
-  "text": "Torfabrik",
-  "tooltip": "Öffne Torfabrik",
-  "topRow": 4,
-  "type": "BUTTON_WIDGET",
+  "responsiveBehavior": "fill",
+  "rightColumn": 14,
+  "scannerLayout": "ALWAYS_ON",
+  "topRow": 19,
+  "type": "CODE_SCANNER_WIDGET",
   "version": 1,
-  "widgetId": "4v88ok46vg",
-  "widgetName": "Button1"
+  "widgetId": "sse5nfyzow",
+  "widgetName": "CodeScanner1"
 }
