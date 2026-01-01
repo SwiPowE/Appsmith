@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "applicationDetail": {
     "appPositioning": {
@@ -35,7 +35,7 @@
     }
   ],
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedApplicationDetail": {
     "appPositioning": {
