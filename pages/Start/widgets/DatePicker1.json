@@ -2,10 +2,10 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 18,
   "boxShadow": "none",
   "closeOnSelection": true,
-  "dateFormat": "DD/MM/YY",
+  "dateFormat": "DD.MM.YYYY",
   "datePickerType": "DATE_PICKER",
   "defaultDate": "2025-12-30T16:08:39.565Z",
   "dynamicBindingPathList": [
@@ -17,8 +17,16 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "dateFormat"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDateSelected"
+    }
+  ],
   "firstDayOfWeek": 0,
   "isDisabled": false,
   "isLoading": false,
@@ -27,10 +35,10 @@
   "key": "f41pw4zk66",
   "label": "Label",
   "labelAlignment": "left",
-  "labelPosition": "Top",
+  "labelPosition": "Auto",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 22,
+  "leftColumn": 1,
   "maxDate": "2121-12-31T18:29:00.000Z",
   "maxDynamicHeight": 9000,
   "minDate": "1920-12-31T18:30:00.000Z",
@@ -41,17 +49,18 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
+  "onDateSelected": "{{storeValue(\"\", \"\")}}",
   "parentColumnSpace": 20.21875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 32,
+  "rightColumn": 9,
   "shortcuts": false,
   "timePrecision": "None",
-  "topRow": 5,
+  "topRow": 11,
   "type": "DATE_PICKER_WIDGET2",
   "version": 2,
-  "widgetId": "aflv1nviye",
+  "widgetId": "7tsg9ubee9",
   "widgetName": "DatePicker1"
 }
