@@ -1,0 +1,1 @@
+SELECT DISTINCT kundenname FROM katalogdaten ORDER BY kundenname;
