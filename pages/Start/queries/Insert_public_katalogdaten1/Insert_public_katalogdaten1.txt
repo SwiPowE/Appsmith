@@ -1,0 +1,1 @@
+INSERT INTO public.katalogdaten ("artikelnummer","status","beschreibung") VALUES ('{{(Table1.newRow || {}).artikelnummer}}','{{(Table1.newRow || {}).status}}','{{(Table1.newRow || {}).beschreibung}}')

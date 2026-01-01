@@ -1,0 +1,1 @@
+UPDATE public.katalogdaten SET "artikelnummer"= '{{Table1.updatedRow.artikelnummer}}', "status"= '{{Table1.updatedRow.status}}', "beschreibung"= '{{Table1.updatedRow.beschreibung}}' WHERE "id"= {{Table1.updatedRow.id}};

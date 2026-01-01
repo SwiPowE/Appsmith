@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.katalogdaten where artikelnummer ilike '%{{Table1.searchText}}%';
